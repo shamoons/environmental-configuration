@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha test/index.coffee -r coffee-script"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/shamoons/configurator/issues"
   },
-  "homepage": "https://github.com/shamoons/configurator"
+  "homepage": "https://github.com/shamoons/configurator",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.18.2"
+  }
 }
