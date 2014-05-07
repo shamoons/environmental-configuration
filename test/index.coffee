@@ -1,13 +1,14 @@
 expect = require 'expect.js'
 
-configurator = require '../src'
+config = require('../src') './test/config'
 
-config = configurator './config'
 
-describe 'configurator', ->
-  it 'should load the base.json file', ->
-    console.log config
-    expect(add).to.be.a('function');
+console.log config
+
+# describe 'configurator', ->
+#   it 'should load the base.json file', ->
+#     console.log config
+
 #   });
 
 #   it('should do math', function () {
