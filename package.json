@@ -1,0 +1,27 @@
+{
+  "name": "configurator",
+  "version": "1.0.0",
+  "description": "Loads configuration files based on environment variable",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shamoons/configurator.git"
+  },
+  "keywords": [
+    "configuration",
+    "express",
+    "environment"
+  ],
+  "author": "",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/shamoons/configurator/issues"
+  },
+  "homepage": "https://github.com/shamoons/configurator"
+}
