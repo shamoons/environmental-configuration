@@ -1,6 +1,6 @@
 {
   "name": "environmental-configuration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loads configuration files based on environment variable",
   "main": "index.js",
   "directories": {
